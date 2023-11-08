@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(135deg,#6b9bdb, #16b8be, #3f77ef, #080bd3dc, #41a7eb, #2ad0e6, #00E7D4 );
+    background-size: 500%;
+    animation: fanimado 20s infinite;
+}
+.mapadiv{
+    width: 90%;
+    margin: auto;   
+}
+.mapadiv path{
+    fill: rgb(97, 243, 117);
+    stroke: #913fef;
+    stroke-width: 1px;
+}
+.mapadiv :hover {
+    fill:  #ef3f74;    
+}
+.bra :hover{
+    fill:rgb(245, 242, 78);
+    
+}
+.ecu :hover{
+    fill:rgb(50, 132, 187);
+  
+}
+.ven :hover{
+    fill:rgb(190, 22, 106);
+   
+}.chi :hover{
+    fill:rgb(170, 22, 190);
+    
+}.arg :hover{
+    fill:rgb(22, 190, 126);
+    
+}.per :hover{
+    fill:rgb(36, 190, 22);
+    
+}.uru :hover{
+    fill:rgb(22, 25, 190);
+   
+}
+.par :hover{
+    fill:rgb(241, 98, 146);
+    
+}.bov :hover{
+    fill:rgb(87, 218, 241);
+    
+}.fra :hover{
+    fill:rgb(190, 112, 22);
+   
+}.guy :hover{
+    fill:rgb(75, 190, 22);
+   
+}.isl :hover{
+    fill:rgb(190, 22, 50);
+    
+}
+.col :hover{
+    fill:rgb(194, 43, 23);
+ 
+}
+@keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fanimado{
+    0%{
+        background-image: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
